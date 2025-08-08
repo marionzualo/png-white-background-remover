@@ -1,0 +1,30 @@
+{
+  "name": "png-white-background-remover",
+  "version": "1.0.0",
+  "description": "A Node.js script to remove white backgrounds from PNG images, ideal for creating favicons",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "png",
+    "image",
+    "background-removal",
+    "favicon",
+    "transparent",
+    "sharp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.32.6",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "bin": {
+    "remove-bg": "./index.js"
+  }
+}
